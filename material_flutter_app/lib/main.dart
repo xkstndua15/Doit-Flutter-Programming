@@ -37,6 +37,11 @@ class _MaterialFlutterAppState extends State<MaterialFlutterApp> {
         child: Icon(Icons.add),
         onPressed: () {},
       ),
+      body: SizedBox(
+        child: Column(
+          children: <Widget>[Icon(Icons.android), Text('android')],
+        ),
+      ),
     );
   }
 }
