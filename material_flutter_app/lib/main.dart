@@ -38,8 +38,11 @@ class _MaterialFlutterAppState extends State<MaterialFlutterApp> {
         onPressed: () {},
       ),
       body: SizedBox(
-        child: Column(
-          children: <Widget>[Icon(Icons.android), Text('android')],
+        child: Center(
+          child: Column(
+            children: <Widget>[Icon(Icons.flutter_dash), Text('android')],
+            mainAxisAlignment: MainAxisAlignment.center,
+          ),
         ),
       ),
     );
